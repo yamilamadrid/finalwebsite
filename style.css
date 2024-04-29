@@ -337,3 +337,7 @@ button:active {
 .btn:hover {
 	background-color: #808080;
 }
+
+.fa fa-home {
+	color:#000000;
+}
