@@ -99,7 +99,6 @@ main {
 
 footer { 
 	background-color: #f0e5d3; 
-	color: #fff; 
 	padding: 20px; 
 	text-align: center;
 	 }
@@ -195,14 +194,14 @@ footer {
 
 
 .swiper-wrapper a {
-	color: #3d251e;
+	color: #ccc7b3;
 	font-size: 1.4rem;
 	text-decoration: none;
 }
 
 
 .swiper-wrapper a:hover {
-	color: #a08679;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -319,4 +318,22 @@ button:active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+/* Style of buttons from W3schools*/
+.btn {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	background-color: DodgerBlue; /* Blue background */
+	border: none; /* Remove borders */
+	color: white; /* White text */
+	padding: 12px 16px; /* Some padding */
+	font-size: 16px; /* Set a font size */
+	cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+	background-color: RoyalBlue;
 }
